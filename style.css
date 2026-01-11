@@ -5,6 +5,17 @@
     font-family: Roboto;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 
 ul {
     list-style: none;
@@ -26,7 +37,9 @@ ul {
 } 
 
 .logo {
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .right-items {
@@ -59,19 +72,18 @@ ul {
 
 button {
     padding: 8px 16px;
-    background-color: green;
+    background-color: blue;
     color: white;
     border: none;
     border-radius: 8px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    margin: 8px;
     margin-top: 16px;
 }
 
 .header,
-.second {
+.second{
     display: flex;
     justify-content: center;
 }
@@ -80,21 +92,53 @@ button {
     width: 1100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
 .third {
     display: flex;
-    border: 2px solid black;
-    width: 200px;
-    height: 200px;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+}
+
+.small-container p {
+    color: black;
 }
 
 .fourth {
     display: flex;
-    border: 2px solid black;
-    width: 500px;
-    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.fourth p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.fourth h3 {
+    margin-left: 500px;
+}
+
+.fifth {
+    display: flex;
+}
+
+.row-container {
+    display: flex;
+    gap: 32px;
+}
+
+.third h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 24px;   
 }
 
 footer {
